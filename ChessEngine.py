@@ -115,7 +115,7 @@ def do_undo(locn_old, locn_new, depth, alpha, beta, player):
     piecearray[tuple(locn_new)] = attackval
 
     return gain
-
+    
 
 def comp(locn_old, locn_new):
     val_old = 8 * locn_old[0] + locn_old[1]
